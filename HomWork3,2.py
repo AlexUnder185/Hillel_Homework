@@ -1,6 +1,6 @@
-nums = [1, 4, 5, True, [4,4], 7, -3]
-
-nums.insert(0, nums.pop())
-
-print(nums)
-
+lst= [1,2,3,4,5]
+if lst == []:
+    print("lst is empty")
+else:
+    lst.insert(0, lst.pop())
+print(lst)
