@@ -4,7 +4,7 @@ middle = (length + 1) // 2
 
 lst1 = lst[:middle]
 lst2 = lst[middle:]
-if length == 0:
+if lst == []:
     print([[], []])
 else:
     print(lst1)
