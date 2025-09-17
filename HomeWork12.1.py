@@ -19,4 +19,4 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
 
 
 # Виклик функції
-delete_html_tags("draft.html")   # очищаємо draft.html і створюємо cleaned.txt
+delete_html_tags("draft.html")
